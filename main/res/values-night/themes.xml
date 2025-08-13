@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.1183243_1192364_CourseProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="backgroundAnimation">@drawable/dark_backgrounds</item>
+        <item name="colorPrimary">@color/dark_text</item>
+        <item name="colorPrimaryVariant">@color/dark_blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/light_text</item>
+        <item name="android:textColorSecondary">@color/gray_text</item>
+        <item name="colorSecondary">@color/blue_200</item>
+        <item name="colorSecondaryVariant">@color/blue_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+    <style name="Theme.1183243_1192364_CourseProject_Dark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="backgroundAnimation">@drawable/dark_backgrounds</item>
+        <item name="colorPrimary">@color/dark_text</item>
+        <item name="colorPrimaryVariant">@color/dark_blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/light_text</item>
+        <item name="android:textColorSecondary">@color/gray_text</item>
+        <item name="colorSecondary">@color/blue_200</item>
+        <item name="colorSecondaryVariant">@color/blue_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+</resources>

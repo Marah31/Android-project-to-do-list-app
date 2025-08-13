@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_animation"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/taskDetailsCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardBackgroundColor="#63FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Title Input -->
+                <EditText
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Title"
+                    android:inputType="text"
+                    android:minHeight="48dp" />
+
+                <!-- Description Input -->
+                <EditText
+                    android:id="@+id/description2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Description"
+                    android:inputType="textMultiLine"
+                    android:minLines="3" />
+
+                <!-- Date Picker -->
+                <Button
+                    android:id="@+id/setDate2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Set Date" />
+
+                <TextView
+                    android:id="@+id/showDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:gravity="center"
+                    android:text="No date set" />
+
+                <!-- Time Picker -->
+                <Button
+                    android:id="@+id/setTime2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Set Time" />
+
+                <TextView
+                    android:id="@+id/showTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:gravity="center"
+                    android:text="No time set" />
+
+                <!-- Priority Spinner -->
+                <Spinner
+                    android:id="@+id/priority2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Category Spinner -->
+                <Spinner
+                    android:id="@+id/category2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp" />
+                <!-- Reminder CheckBox -->
+                <Spinner
+                    android:id="@+id/spinner_notification_times"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Task Completion CheckBox -->
+                <CheckBox
+                    android:id="@+id/completion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Completed" />
+
+
+                <!-- Save Button -->
+                <Button
+                    android:id="@+id/save2_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Save" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
